@@ -47,14 +47,3 @@ jobs:
       run: |
         docker push alberth1414/config-server:$NEW_VERSION
         docker push alberth1414/config-server:latest
-
-    #- name: Set up kubectl
-    #  uses: azure/k8s-set-context@v1
-    #  with:
-    #    method: kubeconfig
-    #    kubeconfig: ${{ secrets.KUBE_CONFIG }}
-        
-
-    #- name: Deploy to Kubernetes
-    #  run: |
-    #    kubectl apply -f eureka-deployment-prd.yml --validate=false
