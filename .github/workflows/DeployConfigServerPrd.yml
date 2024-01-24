@@ -1,4 +1,4 @@
-name: Deploy Eureka Prd
+name: Deploy Config Server Prd
 
 on:
   push:
