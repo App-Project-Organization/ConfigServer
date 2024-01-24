@@ -32,6 +32,7 @@ spec:
   selector:
     app: configserver
   ports:
+    - name: amqp
       protocol: TCP
       port: 8888
       targetPort: 8888
