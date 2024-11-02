@@ -28,7 +28,7 @@ spec:
             - name: GIT_USERNAME
               value: alberthgarita
             - name: GIT_PASSWORD
-              value: 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
+              value: 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
             - name: GIT_BRANCH
               value: main
 ---
