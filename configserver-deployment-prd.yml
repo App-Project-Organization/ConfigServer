@@ -28,7 +28,9 @@ spec:
             - name: GITHUB_USERNAME
               vaule: alberthgarita
             - name: GITHUB_PASSWORD
-              value: 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    
+              value: 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
+            - name: GITHUB_BRANCH
+              value: main
 ---
 apiVersion: v1
 kind: Service
