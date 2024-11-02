@@ -23,13 +23,13 @@ spec:
           ports:
             - containerPort: 8888
           env:
-            - name: GITHUB_URI
+            - name: GIT_URI
               value: https://github.com/alberthgr1414/Config
-            - name: GITHUB_USERNAME
+            - name: GIT_USERNAME
               vaule: alberthgarita
-            - name: GITHUB_PASSWORD
+            - name: GIT_PASSWORD
               value: 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
-            - name: GITHUB_BRANCH
+            - name: GIT_BRANCH
               value: main
 ---
 apiVersion: v1
