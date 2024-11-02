@@ -28,7 +28,7 @@ spec:
             - name: GIT_USERNAME
               vaule: alberthgarita
             - name: GIT_PASSWORD
-              value: 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
+              value: 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
             - name: GIT_BRANCH
               value: main
 ---
