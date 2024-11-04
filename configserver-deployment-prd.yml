@@ -30,8 +30,8 @@ spec:
             - name: GIT_PASSWORD
               valueFrom:
                 secretKeyRef:
-                  name: my-secret
-                  key: ACCESS_TOKEN
+                  name: secret-config-server
+                  key: token
             - name: GIT_BRANCH
               value: main
 ---
