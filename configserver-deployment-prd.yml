@@ -28,7 +28,7 @@ spec:
             - name: GIT_USERNAME
               value: alberthgarita
             - name: GIT_PASSWORD
-              value: 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
+              value: ${{ secrets.TOKENCONFIGSERVER }}
             - name: GIT_BRANCH
               value: main
 ---
