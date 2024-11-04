@@ -24,11 +24,14 @@ spec:
             - containerPort: 8888
           env:
             - name: GIT_URI
-              value: https://github.com/alberthgarita/Configurator
+              value: https://github.com/Garita-Sofware/Config
             - name: GIT_USERNAME
               value: alberthgarita
             - name: GIT_PASSWORD
-              value: ${{ secrets.TOKENCONFIGSERVER }}
+              valueFrom:
+                secretKeyRef:
+                  name: my-secret
+                  key: ACCESS_TOKEN
             - name: GIT_BRANCH
               value: main
 ---
