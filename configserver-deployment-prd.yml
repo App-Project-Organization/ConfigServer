@@ -24,11 +24,11 @@ spec:
             - containerPort: 8888
           env:
             - name: GIT_URI
-              value: https://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@github.com/alberthgarita/Configurator.git
+              value: https://github.com/alberthgarita/Configurator
             - name: GIT_USERNAME
               value: alberthgarita
             - name: GIT_PASSWORD
-              value: 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
+              value: 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
             - name: GIT_BRANCH
               value: main
 ---
